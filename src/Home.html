@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CroMaccy's</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('irish_chinese_spice_bag.jpeg');
+			background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: orange;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: black;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CroMaccy's</h1>
+        <p>Delicious. Fast. Fresh.</p>
+    </header>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="menu_display_page.php">Menu</a>
+        <a href="add_item_page.php">Add Item</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>Welcome to CroMaccy's Takeaway</h2>
+        <p>We provide quick, tasty meals made with fresh ingredients. Order online or visit us in store!</p>
+    </div>
+
+    <div class="container" id="menu">
+        <h2>Our Popular Dishes</h2>
+        <div class="menu-section">
+            <div class="menu-item">
+                <h3>Spice Bag</h3>
+                <p>Mix of chips, chicken pieces, peppers, onions and spicy seasoning  €8.99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Wrap</h3>
+                <p>Grilled chicken with fresh salad in a toasted wrap - €5.99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Spice Box</h3>
+                <p>Bigger portion size, mix of chips, chicken pieces, peppers, onions and spicy seasoning - €14.99</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>Contact Us</strong></p>
+        <p>Email: CroMaccy's@gmail.com | Phone: +30 690 000 0000</p>
+        <p>&copy; 2025 CroMaccy's Takeaway. All rights reserved.</p>
+        <a id="contact"></a>
+    </footer>
+</body>
+</html>
